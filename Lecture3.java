@@ -32,14 +32,29 @@ public class Lecture3{
 		// }
 		// carSpeed = carSpeed - 10;  // This will cause an error because its outside
 
+		// boolean isLightGreen = false; // true;
+		// if(isLightGreen){
+		// 	//traffic light is green
+		// 	System.out.println("Drive!");
+		// } 
+		// else{
+		// 	//traffic light is NOT green
+		// 	System.out.println("Stop!");
+		// }
+
 		boolean isLightGreen = false; // true;
+		boolean isLightYellow = true; //false
 		if(isLightGreen){
 			//traffic light is green
 			System.out.println("Drive!");
 		} 
+		else if(isLightYellow){
+			//traffic light is Yellow
+			System.out.println("Slow down!");
+		}	
 		else{
-			//traffic light is NOT green
+			//traffic light is neither green nor Yellow
 			System.out.println("Stop!");
-		}
+		}			  
 	}
 }

@@ -5,5 +5,11 @@ public class Lecture3{
 			//executes ONLY if isCold is true
 			System.out.println("It's cold, wear a jacket!");
 		}
+
+		boolean isLightGreen = true; // false;
+		if(isLightGreen){
+			//traffic light is green
+			System.out.println("Drive!");
+		}
 	}
 }

@@ -23,13 +23,23 @@ public class Lecture3{
 		// 	System.out.println("Windsheild wipers on.");
 		// }
 
-		boolean isLightGreen = true; // false;
+		// boolean isLightGreen = true; // false;
+		// if(isLightGreen){
+		// 	//traffic light is green
+		// 	double carSpeed = 100; // in km/hr
+		// 	System.out.println("Drive!");
+		// 	System.out.println("Speed is: " + carSpeed);
+		// }
+		// carSpeed = carSpeed - 10;  // This will cause an error because its outside
+
+		boolean isLightGreen = false; // true;
 		if(isLightGreen){
 			//traffic light is green
-			double carSpeed = 100; // in km/hr
 			System.out.println("Drive!");
-			System.out.println("Speed is: " + carSpeed);
+		} 
+		else{
+			//traffic light is NOT green
+			System.out.println("Stop!");
 		}
-		carSpeed = carSpeed - 10;  // This will cause an error because its outside
 	}
 }

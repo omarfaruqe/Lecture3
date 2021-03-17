@@ -42,19 +42,35 @@ public class Lecture3{
 		// 	System.out.println("Stop!");
 		// }
 
-		boolean isLightGreen = false; // true;
-		boolean isLightYellow = true; //false
-		if(isLightGreen){
-			//traffic light is green
-			System.out.println("Drive!");
+		// boolean isLightGreen = false; // true;
+		// boolean isLightYellow = true; //false
+		// if(isLightGreen){
+		// 	//traffic light is green
+		// 	System.out.println("Drive!");
+		// } 
+		// else if(isLightYellow){
+		// 	//traffic light is Yellow
+		// 	System.out.println("Slow down!");
+		// }	
+		// else{
+		// 	//traffic light is neither green nor Yellow
+		// 	System.out.println("Stop!");
+		// }
+
+		boolean passport = false; // true;
+		boolean birthCertificate = true; //false
+		boolean driverLicense = true; //false
+		if(passport){
+			System.out.println("A passport is a valid ID.");
 		} 
-		else if(isLightYellow){
-			//traffic light is Yellow
-			System.out.println("Slow down!");
+		else if(birthCertificate){
+			System.out.println("A birth certificate ia a valid ID.");
+		}	
+		else if(driverLicense){
+			System.out.println("A driver's license ia a valid ID.");
 		}	
 		else{
-			//traffic light is neither green nor Yellow
-			System.out.println("Stop!");
-		}			  
+			System.out.println("Invalid ID. Your application is denied.");
+		}					  
 	}
 }

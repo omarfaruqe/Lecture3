@@ -17,5 +17,10 @@ public class Lecture3{
 		  Windsheild wipers on.
 		  when its raining.
 		*/
+		boolean isRaining = true; // false;
+		if(isRaining){
+			//traffic light is green
+			System.out.println("Windsheild wipers on.");
+		}
 	}
 }

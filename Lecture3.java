@@ -11,5 +11,11 @@ public class Lecture3{
 			//traffic light is green
 			System.out.println("Drive!");
 		}
+
+		/*Given the boolean variable isRaining ,
+		  write an if statement that will print out
+		  Windsheild wipers on.
+		  when its raining.
+		*/
 	}
 }

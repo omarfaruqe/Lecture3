@@ -107,14 +107,51 @@ public class Lecture3{
 		  // }
 
 
-		  int rating = ?; // i.e. 4
-		  if(rating >= 0 && rating <=5){
-		  	//rating is 0-5
-		  	if(rating <=2){
-		  		//rating is less than or equal to 2
-		  		System.out.println("What's the reason for your low rating?");
-		  	}
-		  	System.out.println("Thank you for your feedback.");
+		  // int rating = ?; // i.e. 4
+		  // if(rating >= 0 && rating <=5){
+		  // 	//rating is 0-5
+		  // 	if(rating <=2){
+		  // 		//rating is less than or equal to 2
+		  // 		System.out.println("What's the reason for your low rating?");
+		  // 	}
+		  // 	System.out.println("Thank you for your feedback.");
+		  // }
+
+
+		  // int passcode = 587; // 3 digit number
+		  // String coffeeType;
+		  // if(passcode == 555){
+		  // 	// espresso passcode
+		  // 	coffeeType = "Espresso";
+		  // }else if(passcode == 312){
+		  // 	// vanilla passcode
+		  // 	coffeeType = "Vanilla latte";		  	
+		  // }else if(passcode == 629){
+		  // 	// drip coffee passcode
+		  // 	coffeeType = "Drip Coffee";		  	
+		  // }else{
+		  // 	//unkonw passcode
+		  // 	coffeeType = "Unknown";
+		  // }
+		  // System.out.println(coffeeType);
+
+		  int passcode = 587; // 3 digit number
+		  String coffeeType;
+		  switch(passcode){
+		  	case 555:
+		  		coffeeType = "Espresso";
+		  	break;
+		  	case 312:
+		  		coffeeType = "Vanilla latte";
+		  	break;
+		  	case 629:
+		  		coffeeType = "Drip Coffee";
+		  	break;
+		  	default:
+		  		coffeeType = "Unknown";
+		  	break;		  			  			  	
 		  }
+		  System.out.println(coffeeType);
+
 	}
 }

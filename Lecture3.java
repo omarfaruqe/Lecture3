@@ -102,8 +102,19 @@ public class Lecture3{
 		  // NOT ! 
 		  // AND &&  
 		  // OR ||
-		  if(age <= 15 || age > 60 || isStudent){
-		  	ticketPrice = 5;
+		  // if(age <= 15 || age > 60 || isStudent){
+		  // 	ticketPrice = 5;
+		  // }
+
+
+		  int rating = ?; // i.e. 4
+		  if(rating >= 0 && rating <=5){
+		  	//rating is 0-5
+		  	if(rating <=2){
+		  		//rating is less than or equal to 2
+		  		System.out.println("What's the reason for your low rating?");
+		  	}
+		  	System.out.println("Thank you for your feedback.");
 		  }
 	}
 }

@@ -84,21 +84,26 @@ public class Lecture3{
 
 
 		//Museum Ticketing System
-		  int ticketPrice = 10;
-		  int age = ?; // Ticket price depends on age
-		  boolean isStudent = ?; // either true or false
+		  // int ticketPrice = 10;
+		  // int age = ?; // Ticket price depends on age
+		  // boolean isStudent = ?; // either true or false
 
-		  if(age <= 15){
+		  // if(age <= 15){
+		  // 	ticketPrice = 5;
+		  // }
+		  // else if(age > 60){
+		  // 	ticketPrice = 5;
+		  // }
+		  // else if(isStudent){
+		  // 	ticketPrice = 5;
+		  // }
+		  // System.out.println("Ticket Price: " + ticketPrice);
+
+		  // NOT ! 
+		  // AND &&  
+		  // OR ||
+		  if(age <= 15 || age > 60 || isStudent){
 		  	ticketPrice = 5;
 		  }
-		  else if(age > 60){
-		  	ticketPrice = 5;
-		  }
-		  else if(isStudent){
-		  	ticketPrice = 5;
-		  }
-		  System.out.println("Ticket Price: " + ticketPrice);
-
-
 	}
 }

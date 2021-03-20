@@ -57,20 +57,29 @@ public class Lecture3{
 		// 	System.out.println("Stop!");
 		// }
 
-		boolean passport = false; // true;
-		boolean birthCertificate = true; //false
-		boolean driverLicense = true; //false
-		if(passport){
-			System.out.println("A passport is a valid ID.");
-		} 
-		else if(birthCertificate){
-			System.out.println("A birth certificate ia a valid ID.");
-		}	
-		else if(driverLicense){
-			System.out.println("A driver's license ia a valid ID.");
-		}	
-		else{
-			System.out.println("Invalid ID. Your application is denied.");
-		}					  
+		// boolean passport = false; // true;
+		// boolean birthCertificate = true; //false
+		// boolean driverLicense = true; //false
+		// if(passport){
+		// 	System.out.println("A passport is a valid ID.");
+		// } 
+		// else if(birthCertificate){
+		// 	System.out.println("A birth certificate ia a valid ID.");
+		// }	
+		// else if(driverLicense){
+		// 	System.out.println("A driver's license ia a valid ID.");
+		// }	
+		// else{
+		// 	System.out.println("Invalid ID. Your application is denied.");
+		// }
+
+		// values can be directly assigned..
+		boolean bIsTrue = true;
+		boolean bIsFalse = false;
+
+		// or calculated with tests like comparisons!
+		boolean bThreeIsLessThanFive = 3 < 5; // true
+		boolean bThreeIsGreaterThanFive = 3 > 5; // false, <=, >= == !=
+		// int x = 20; x <=21, 2 * 2 > 8, 5 != x, 20 == x
 	}
 }

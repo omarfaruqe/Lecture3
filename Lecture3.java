@@ -73,13 +73,32 @@ public class Lecture3{
 		// 	System.out.println("Invalid ID. Your application is denied.");
 		// }
 
-		// values can be directly assigned..
-		boolean bIsTrue = true;
-		boolean bIsFalse = false;
+		// // values can be directly assigned..
+		// boolean bIsTrue = true;
+		// boolean bIsFalse = false;
 
-		// or calculated with tests like comparisons!
-		boolean bThreeIsLessThanFive = 3 < 5; // true
-		boolean bThreeIsGreaterThanFive = 3 > 5; // false, <=, >= == !=
-		// int x = 20; x <=21, 2 * 2 > 8, 5 != x, 20 == x
+		// // or calculated with tests like comparisons!
+		// boolean bThreeIsLessThanFive = 3 < 5; // true
+		// boolean bThreeIsGreaterThanFive = 3 > 5; // false, <=, >= == !=
+		// // int x = 20; x <=21, 2 * 2 > 8, 5 != x, 20 == x
+
+
+		//Museum Ticketing System
+		  int ticketPrice = 10;
+		  int age = ?; // Ticket price depends on age
+		  boolean isStudent = ?; // either true or false
+
+		  if(age <= 15){
+		  	ticketPrice = 5;
+		  }
+		  else if(age > 60){
+		  	ticketPrice = 5;
+		  }
+		  else if(isStudent){
+		  	ticketPrice = 5;
+		  }
+		  System.out.println("Ticket Price: " + ticketPrice);
+
+
 	}
 }
